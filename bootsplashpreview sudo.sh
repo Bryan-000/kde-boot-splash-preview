@@ -3,6 +3,7 @@
 # check if the effective user ID is Not Equal to 0, cuz that means it not running as admin
 if [ "$EUID" -ne 0 ]; then
   echo "Please run this script with sudo."
+  sleep 1
   exit 1
 fi
 
