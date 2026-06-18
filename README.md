@@ -1,7 +1,7 @@
 some bash things to preview the boot splash screen youve selected without needing to restart ur pc
 (dont mind the comments its my first time doing stuff with bash)
 
-you can also just run
+you can also just run (might only work on arch tho..)
 ```
 sudo plymouthd --mode=shutdown
 sudo plymouth --show-splash
